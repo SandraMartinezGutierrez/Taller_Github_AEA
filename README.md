@@ -163,7 +163,7 @@ ___
 
     Todas las versiones de un documento en Google Doc están almacenadas. Así, se pueden ver la cantidad de modificaciones que hizo cada contribuidor al documento, y la fecha y hora de registro.
 
-    ![](img/control_versiones.png) 
+    ![](img/control_versiones.PNG) 
 
     Ahora bien, para no tener que almacenar todas estas versiones, Git usa los ***commits*** para indicar las diferencias significativas entre versión y versión.
 
@@ -280,11 +280,11 @@ Es común que el acceso a la rama *main* solo la tenga el repo maintainer (no to
 
 - Otra forma de hacer un *pull request* es yendo a https://github.com/SandraMartinezGutierrez/Taller_Github_AEA/pulls y darle click a *New pull request*.
 
-    ![](img/pull_request_000.png) 
+    ![](img/pull_request_000.PNG) 
 
 - Asegúrese de que la branch *main* esté seleccionada como *base:* branch. Selecciona tu branch como *compare:* branch
 
-    ![](img/pull_request_00.png) 
+    ![](img/pull_request_00.PNG) 
 
 - Scrollea para ver que tus ediciones son las que quieres que se integren con la main branch. Finalmente, dale click a *Create pull request*
 
