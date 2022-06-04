@@ -169,6 +169,20 @@ ___
 
     Cada commit funciona como una captura de los archivos del proyecto en determinado momento, y lo compara respecto al commit anterior. Además, cada commit tiene un timestamp (dentro de este ya tiene un id que incluye fecha y hora). Es una forma de “guardar” un archivo.
 
+    Un commit en Github Desktop se ve así:
+
+    ![](img/commit.png) 
+
+    En el lado izquierdo vemos los cambios realizados. Las cruces verdes significan que estamos añadiendo archivos al repositorio. El punto amarillo significa que estamos agregando un archivo que aún tenemos abierto en nuestra camputadora. Si hubiera algún signo negativo coloreado de rojo, significa que estamos eliminando archivos del repositorio.
+    
+    Para poder realizar un commit correctamente, debemos escribir una breve descripción en *Summary*, para que el botón *Commit to __branch__* se active.
+
+    En el lado derecho vemos líneas de código. Vemos una primera línea sombreada de color color, mientras que las demás líneas están coloreadas de color verde. Esta diferenciación de colores se debe a dos motivos: quitando o modificando líneas de código existentes (rojo), o agregando nuevas líneas de código (verde).
+
+    Ahora, le damos click en *Push Origin* para subir nuestros cambios al repositorio remoto de nuestro branch.
+
+   ![](img/commit_1.png) 
+
 
 &nbsp;
 ## 3. Branch 
@@ -238,11 +252,33 @@ Cuando las ediciones realizadas están listas para ser mergeadas con el *main*, 
 
 Es común que el acceso a la rama *main* solo la tenga el repo maintainer (no todos los contribuidores).
  
-- Una vez ubicados correctamente en nuestro branch en Github Desktop, y luego de haber hecho nuestro primer *commit* al repositorio, haga click en **Create Pull request** para almacenar nuestros futuros *commits* en una línea temporal. 
+- Una vez ubicados correctamente en nuestro branch en Github Desktop, y luego de haber hecho nuestro primer *commit* al repositorio, haga click en **Create Pull request** para almacenar nuestros futuros *commits* en una línea temporal. Siguiendo el ejemplo hecho en nuestro apartado sobre el *Commit*, retomemos. Habiendo dado commit a nuestro branch, y luego de haberle dado click a *Push Origin* para subir nuestros cambios a nuestro repositorio remoto: 
 
-    ![](img/pull_request_0.png) 
+    ![](img/commit_1.png) 
 
-- Otra forma es yendo a https://github.com/SandraMartinezGutierrez/Taller_Github_AEA/pulls y darle click a *New pull request*
+    Ahora le damos click a *Pull Request*. 
+
+    ![](img/commit_2.png) 
+
+    Esto nos redirigirá a nuestro navegador. Damos click a *Create Pull Request*.
+
+    ![](img/commit_3.png) 
+
+    Una vez que ya hemos realizado cuantos commits sean necesarios para nuestro proyecto, le damos click a *Merge pull request*.
+
+    ![](img/commit_4.png) 
+
+    Confirmamos esta acción dando click a *Confirm merge*.
+
+    ![](img/commit_5.png) 
+
+    Finalmente, una forma ordenada que se sugiere al trabajar en Github es eliminar nuestros branches luego de hacer un merge. Para esto, seleccionamos *Delete branch*.
+
+    ![](img/commit_6.png) 
+
+
+
+- Otra forma de hacer un *pull request* es yendo a https://github.com/SandraMartinezGutierrez/Taller_Github_AEA/pulls y darle click a *New pull request*.
 
     ![](img/pull_request_000.png) 
 
